@@ -2,7 +2,7 @@
 
 An end-to-end data engineering and analytics project that extracts developer activity data from the Stack Exchange API, models it in a PostgreSQL database, and visualizes global technology trends using Power BI.
 
-[Dashboard State Example](stack_overflow_visualization.jpg)
+![Dashboard Preview](stack_overflow_visualization.jpg)
 
 ## 📌 Project Overview
 
@@ -93,10 +93,10 @@ The script allows you to configure the extraction period and volume using comman
 
 ```bash
 # Run with default settings (from Dec 1, 2025 to present, 80 pages / ~8000 items)
-python main.py
+python src/main.py
 
 # Extract data for a specific month (e.g., January 2026, up to 5000 items)
-python main.py --start 2026-01-01 --end 2026-01-31 --pages 50
+python src/main.py --start 2026-01-01 --end 2026-01-31 --pages 50
 ```
 
 
