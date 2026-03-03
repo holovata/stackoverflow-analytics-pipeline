@@ -54,7 +54,7 @@ The goal of this project is to track and analyze community engagement across var
 Clone the repository and spin up the PostgreSQL database:
 
 ```bash
-git clone https://github.com/yourusername/stackoverflow-pipeline.git
+git clone https://github.com/holovata/stackoverflow-analytics-pipeline.git
 cd stackoverflow-pipeline
 docker-compose up -d
 
