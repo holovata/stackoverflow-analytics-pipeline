@@ -1,5 +1,11 @@
 # Stack Overflow Data Pipeline & Analytics
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-F48024?style=for-the-badge&logo=stackoverflow&logoColor=white)
+
 An end-to-end data engineering and analytics project that extracts developer activity data from the Stack Exchange API, models it in a PostgreSQL database, and visualizes global technology trends using Power BI.
 
 ![Dashboard Preview](stack_overflow_visualization.jpg)
